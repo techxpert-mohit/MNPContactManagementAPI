@@ -10,5 +10,6 @@ namespace MNPContactManagementAPI.Controllers.Data
         }
 
         public DbSet<ContactDetails> ContactDetails { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }
